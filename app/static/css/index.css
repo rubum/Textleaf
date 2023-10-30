@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    margin: auto 20%;
+}
+
+.editor {
+    margin-top: 50px;
+    height: 500px;
+}
+
+.editor-menu {
+    color: #fff;
+    background-color: #474747;    
+    border: 1px solid #d0d0d0;
+    display: grid;
+    grid-template-columns: repeat(2, 2rem);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 5px 5px 5px 10px;
+}
+
+.menu-item:hover {
+    background-color: #696868;
+    cursor: pointer;
+}
+
+.editor-area {  
+    font-size: 20px;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #d0d0d0;
+}
+
+.editor-area:focus-visible {
+    border: 1px solid #98c0e7;   
+    outline: none;
+}
+
+.text-leaf {
+    color: #507050;
+}
